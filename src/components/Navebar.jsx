@@ -36,7 +36,7 @@ export default function Navebar() {
 
                 <div className="nave-header fade-leftside">
 
-                    <a href="/"><h1>Nouman</h1></a>
+                    <a href="/"><h1>Nouman Shafi</h1></a>
 
                     <button className="togle-btn" onClick={togle}>{Togle ? <FaTimes /> : <FaEllipsisV />}</button>
                 </div>
