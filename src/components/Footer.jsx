@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaWhatsapp, FaLinkedin, FaSkype } from "react-icons/fa"
+import { FaFacebook, FaWhatsapp, FaLinkedin, FaSkype, FaGithub } from "react-icons/fa"
 
 export default function Footer() {
     return (
@@ -10,6 +10,7 @@ export default function Footer() {
                 <a href="https://www.linkedin.com/in/nouman-shafi/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                 <a href="https://join.skype.com/invite/xk3hIwERHpOc" target="_blank" rel="noopener noreferrer"><FaSkype /></a>
                 <a href="https://wa.me/+923166505187"target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+                <a href="https://github.com/NoumanShafi"target="_blank" rel="noopener noreferrer"><FaGithub/></a>
 
 
             </div>
