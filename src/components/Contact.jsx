@@ -32,7 +32,7 @@ export default function Contact() {
             form.current, '--4P22M6TmanqCBGO')
             .then((result) => {
                 console.log(result.text);
-alert("Sending your mail")
+                alert("Sending your mail")
                 e.target.reset();
 
             }, (error) => {
@@ -41,7 +41,7 @@ alert("Sending your mail")
     };
 
     return (
-        <section ref={Contactref}>
+        <section className="section" ref={Contactref}>
             <h1 className="tital">Contact me</h1>
             <div className="container">
                 <div className="imag">

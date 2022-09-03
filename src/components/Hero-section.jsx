@@ -4,7 +4,7 @@ import { useGlobleContext } from "./context";
 export default function Hero() {
     const {HireBtn} = useGlobleContext()
     return (
-        <section  className="color">
+        <section  className="color section">
         <div className="container">
             <div className="left-side fade-leftside">
                 <h1>Nouman Shafi</h1>

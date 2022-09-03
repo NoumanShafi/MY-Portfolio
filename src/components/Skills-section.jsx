@@ -26,7 +26,7 @@ export default function Skills() {
 
 
     return (
-        <section ref={Skillsref}>
+        <section className="section" ref={Skillsref}>
             <h1 className="tital">Skills</h1>
             <div className="container">
 

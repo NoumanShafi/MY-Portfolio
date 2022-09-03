@@ -243,7 +243,7 @@ NAVEBAR COMPONENTT
 }
 
 @media(min-width : 700px) {
-    section {
+    .section {
         height: 100vh;
         width: 100%;
     }
@@ -358,11 +358,15 @@ NAVEBAR COMPONENTT
     margin: 1rem 0;
 }
 
+.project_section {
+    height: max-content;
+}
+
 .project-list {
     margin: 2rem 0;
     display: grid;
     grid-template-columns: 1fr;
-    gap:  4rem;
+    gap: 4rem 4rem;
 }
 
 .list-items {
@@ -370,23 +374,26 @@ NAVEBAR COMPONENTT
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
     background-color: #fff;
     border: 2px solid transparent;
     border-radius: 5px;
     box-shadow: 2px 2px 10px 5px gray;
-transition: 0.5s;
+    transition: 0.5s;
 
 }
-.list-items:hover{
+
+.list-items:hover {
     transform: scale(1.02);
 }
-.project-img{
+
+.project-img {
     width: 100%;
     object-fit: cover;
     object-position: top;
 }
-.project-image-heading{
+
+.project-image-heading {
     text-align: center;
     margin: 1rem;
     color: #000;
@@ -404,7 +411,7 @@ transition: 0.5s;
     .project-list {
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
-        gap:0  1rem ;
+        gap: 1rem;
         /* margin: 0 auto; */
     }
 
@@ -413,7 +420,8 @@ transition: 0.5s;
         justify-content: space-around;
         width: 90%;
     }
-    .list-items{
+
+    .list-items {
         width: 100%;
     }
 

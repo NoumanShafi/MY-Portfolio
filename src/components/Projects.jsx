@@ -22,7 +22,7 @@ export default function Projects() {
     }
    
     return (
-        <section className="color" ref={Projectsref}>
+        <section className="color project_section" ref={Projectsref}>
             <div className="container projrct-container">
                 <div className="tital">
 
