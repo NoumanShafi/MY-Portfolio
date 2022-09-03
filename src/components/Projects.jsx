@@ -2,6 +2,7 @@ import React from "react";
 import Project1 from "../images/project1.png"
 import Project2 from "../images/project2.png"
 import Project3 from "../images/project3.png"
+import Project4 from "../images/project4.png"
 import { useRef } from "react";
 import { useGlobleContext } from "./context";
 
@@ -43,6 +44,12 @@ export default function Projects() {
                     <div className="list-items">
 
                        <a href="https://noumanshafi.github.io/Restaurant-Menu-App/" target="_blank" rel="noopener noreferrer"><img src={Project3} alt="projects-img" className="project-img" /><h2 className="project-image-heading">Menu App</h2></a> 
+                        
+                        
+                    </div>
+                    <div className="list-items">
+
+                       <a href="https://reduxecommercestore.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={Project4} alt="projects-img" className="project-img" /><h2 className="project-image-heading">Redux Store</h2></a> 
                         
                         
                     </div>
